@@ -1,0 +1,14 @@
+Flask
+gunicorn
+spacy
+requests
+beautifulsoup4
+PyPDF2
+langchain
+chromadb
+sentence-transformers
+transformers
+# Optional / environment-specific (install only if you use the components):
+# langchain-huggingface
+# langchain-community
+# langchain-chroma
