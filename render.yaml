@@ -1,0 +1,16 @@
+# Render service manifest (example). You can create the service via the Render API
+# by providing an API key and this manifest, or use the Render UI and copy these values.
+
+services:
+  - type: web
+    name: HealthGenie
+    env: python
+    region: oregon
+    repo: Dhruv220904/HealthCare_ChatBot
+    branch: master
+    plan: starter
+    buildCommand: pip install -r requirements.txt && python -m spacy download en_core_web_sm
+    startCommand: bash start.sh
+    # If you want persistence for vectorstores/uploads, configure a persistent disk in the Render UI
+    # persistentDisk:
+    #  sizeGb: 5
