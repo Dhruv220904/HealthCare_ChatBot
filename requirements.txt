@@ -6,7 +6,7 @@ beautifulsoup4==4.12.2
 PyPDF2==3.0.1
 # RAG / embeddings / vector DB (install if you use these features)
 langchain>=0.0.350
-chromadb==0.3.32
+chromadb>=0.3.29
 sentence-transformers==2.2.2
 transformers==4.34.0
 # Optional / environment-specific (install only if you use the components):
