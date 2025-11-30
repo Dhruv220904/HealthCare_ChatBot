@@ -1,14 +1,15 @@
-Flask
-gunicorn
-spacy
-requests
-beautifulsoup4
-PyPDF2
-langchain
-chromadb
-sentence-transformers
-transformers
+Flask==2.3.2
+gunicorn==20.1.0
+spacy==3.6.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+PyPDF2==3.0.1
+# RAG / embeddings / vector DB (install if you use these features)
+langchain==0.0.400
+chromadb==0.3.32
+sentence-transformers==2.2.2
+transformers==4.34.0
 # Optional / environment-specific (install only if you use the components):
-# langchain-huggingface
-# langchain-community
-# langchain-chroma
+# langchain-huggingface==0.0.8
+# langchain-community==0.0.36
+# langchain-chroma==0.0.7
